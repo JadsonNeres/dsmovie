@@ -67,6 +67,7 @@ a, a:hover {
     background-color: var(--white);
     border-radius: 0 0 8px 8px;
     justify-content: space-between;
+    min-height: 150px;
 }
 .dsmovie-card-description h3{
     font-size: 18px;
@@ -74,7 +75,7 @@ a, a:hover {
     margin-bottom: 25px;
     text-align: center;
 }
-.dsmovie-btn, .dsmovie-btn:hover{
+.dsmovie-btn, .dsmovie-btn:hover, .dsmovie-btn-ratting{
     width: 180px;
     height: 40px;
     background-color: var(--color-primary);
@@ -85,4 +86,9 @@ a, a:hover {
     color: var(--bg-gray);
     font-size: 18px;
     font-weight: 700;
+    padding: 40px;
+}
+.dsmovie-form-container{
+    padding: 40px 00;
+    max-width: 480px;
 }
